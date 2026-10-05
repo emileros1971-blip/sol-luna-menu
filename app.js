@@ -1,14 +1,14 @@
 let lang='es', data=[];
 const strings={
-  es:{demo:'Vista previa · carta digital bilingüe',title:'A tu gusto,<br><em>junto al mar.</em>',subtitle:'Nuestra carta',featuretag:'PARA COMPARTIR · 2 PERSONAS',featurename:'Paella mixta',samplenote:'Carta en español e inglés · precios y datos de bebidas pendientes de confirmación.',map:'Ver ubicación',allergy:'Para información sobre alérgenos, consulta con nuestro equipo.',source:'Propuesta de carta basada en las fotos del menú recibidas. Confirma los precios pendientes antes de publicar.',pending:'Consultar precio'},
-  en:{demo:'Preview · bilingual digital menu',title:'Your favourites,<br><em>by the sea.</em>',subtitle:'Our menu',featuretag:'TO SHARE · 2 PEOPLE',featurename:'Mixed paella',samplenote:'Spanish and English menu · drink prices and details pending confirmation.',map:'View location',allergy:'For allergen information, please speak to our team.',source:'Menu draft based on the supplied menu photos. Please confirm missing prices before publishing.',pending:'Ask for price'}
+  es:{title:'A tu gusto,<br><em>junto al mar.</em>',subtitle:'Nuestra carta',featuretag:'PARA COMPARTIR · 2 PERSONAS',featurename:'Paella mixta',map:'Ver ubicación',allergy:'Para información sobre alérgenos, consulta con nuestro equipo.'},
+  en:{title:'Your favourites,<br><em>by the sea.</em>',subtitle:'Our menu',featuretag:'TO SHARE · 2 PEOPLE',featurename:'Mixed paella',map:'View location',allergy:'For allergen information, please speak to our team.'}
 };
 const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 function formattedPrice(price){return new Intl.NumberFormat(lang==='es'?'es-ES':'en-IE',{style:'currency',currency:'EUR'}).format(price)}
 function renderItem(item){
   const [es,en,price,img,detailEs,detailEn]=item;
   const name=lang==='es'?es:en, detail=lang==='es'?detailEs:detailEn;
-  const priceMarkup=price===null?`<span class="price pending">${esc(strings[lang].pending)}</span>`:`<span class="price">${formattedPrice(price)}</span>`;
+  const priceMarkup=price===null?'':`<span class="price">${formattedPrice(price)}</span>`;
   if(img){return `<article class="card"><div class="image-frame"><img src="assets/${esc(img)}.webp" alt="${esc(name)}" loading="lazy" width="1200" height="1200"></div><div class="body"><div class="item-line"><h3>${esc(name)}</h3>${priceMarkup}</div>${detail?`<p>${esc(detail)}</p>`:''}</div></article>`}
   return `<article class="menu-row"><div class="row-name">${esc(name)}${detail?`<small>${esc(detail)}</small>`:''}</div>${priceMarkup}</article>`;
 }
