@@ -24,4 +24,4 @@ function render(){
 const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){document.querySelectorAll('#categories a').forEach(link=>link.classList.toggle('active',link.hash==='#'+entry.target.id))}})},{rootMargin:'-10% 0px -65% 0px'});
 document.getElementById('es').onclick=()=>{lang='es';render()};
 document.getElementById('en').onclick=()=>{lang='en';render()};
-fetch('menu.json').then(response=>{if(!response.ok)throw Error('Menu unavailable');return response.json()}).then(menu=>{data=menu;render()}).catch(()=>{document.getElementById('menu').textContent='La carta no está disponible. Consulta con nuestro equipo.'});
+fetch('menu.json?v=5').then(response=>{if(!response.ok)throw Error('Menu unavailable');return response.json()}).then(menu=>{data=menu;render()}).catch(()=>{document.getElementById('menu').textContent='La carta no está disponible. Consulta con nuestro equipo.'});

@@ -1,0 +1,266 @@
+[
+  {
+    "category": "desayunos",
+    "index": 0,
+    "asset": "english-breakfast",
+    "subject": "Classic English breakfast: fried eggs, browned sausages, bacon, baked beans, grilled tomato, mushrooms and toast"
+  },
+  {
+    "category": "desayunos",
+    "index": 1,
+    "asset": "scrambled-eggs",
+    "subject": "Soft scrambled eggs, bacon and toast"
+  },
+  {
+    "category": "sandwiches",
+    "index": 0,
+    "asset": "ham-cheese-sandwich",
+    "subject": "Toasted sliced-bread sandwich cut diagonally, cooked ham and melted cheese"
+  },
+  {
+    "category": "sandwiches",
+    "index": 1,
+    "asset": "bacon-sandwich",
+    "subject": "Toasted sliced-bread sandwich cut diagonally, crisp bacon filling"
+  },
+  {
+    "category": "sandwiches",
+    "index": 2,
+    "asset": "bacon-egg-sandwich",
+    "subject": "Toasted sliced-bread sandwich cut diagonally, bacon and fried egg filling"
+  },
+  {
+    "category": "sandwiches",
+    "index": 3,
+    "asset": "tuna-sandwich",
+    "subject": "Sliced-bread sandwich cut diagonally, flaked tuna with light mayonnaise, lettuce and tomato"
+  },
+  {
+    "category": "sandwiches",
+    "index": 4,
+    "asset": "chicken-sandwich-v2",
+    "subject": "Toasted sliced-bread sandwich cut diagonally, sliced cooked chicken, lettuce and tomato"
+  },
+  {
+    "category": "sandwiches",
+    "index": 5,
+    "asset": "american-sandwich",
+    "subject": "Triple-decker toasted sliced-bread American sandwich with cooked ham, cheese, bacon, fried egg, lettuce and tomato"
+  },
+  {
+    "category": "sandwiches",
+    "index": 6,
+    "asset": "hawaii-sandwich",
+    "subject": "Toasted sliced-bread Hawaiian sandwich cut diagonally with cooked ham, melted cheese and pineapple"
+  },
+  {
+    "category": "sandwiches",
+    "index": 7,
+    "asset": "prawn-sandwich",
+    "subject": "Sliced-bread sandwich cut diagonally with peeled cooked prawns, lettuce and light cocktail sauce"
+  },
+  {
+    "category": "sandwiches",
+    "index": 9,
+    "asset": "tomato-onion-sandwich",
+    "subject": "Sliced-bread sandwich cut diagonally with ripe tomato slices and finely sliced onion"
+  },
+  {
+    "category": "sandwiches",
+    "index": 10,
+    "asset": "vegetable-sandwich",
+    "subject": "Sliced-bread vegetable sandwich cut diagonally with lettuce, tomato, cucumber and grated carrot; no meat"
+  },
+  {
+    "category": "hamburguesas",
+    "index": 2,
+    "asset": "bacon-cheese-egg-burger",
+    "subject": "Single beef burger in sesame bun with bacon, melted cheese, fried egg, lettuce and tomato"
+  },
+  {
+    "category": "hamburguesas",
+    "index": 3,
+    "asset": "bacon-cheese-burger",
+    "subject": "Single beef burger in sesame bun with bacon, melted cheese, lettuce and tomato; no egg"
+  },
+  {
+    "category": "bocadillos",
+    "index": 0,
+    "asset": "ham-cheese-roll",
+    "subject": "Spanish bocadillo baguette bread roll with cooked ham and cheese"
+  },
+  {
+    "category": "bocadillos",
+    "index": 1,
+    "asset": "serrano-ham-roll",
+    "subject": "Spanish bocadillo crusty baguette with thin folds of cured Serrano ham"
+  },
+  {
+    "category": "bocadillos",
+    "index": 2,
+    "asset": "beef-roll",
+    "subject": "Spanish pepito de ternera crusty baguette roll with seared thin beefsteak"
+  },
+  {
+    "category": "bocadillos",
+    "index": 3,
+    "asset": "omelette-roll",
+    "subject": "Spanish bocadillo crusty baguette roll filled with a simple golden egg omelette"
+  },
+  {
+    "category": "bocadillos",
+    "index": 4,
+    "asset": "chicken-roll-v2",
+    "subject": "Spanish pepito de pollo crusty baguette roll filled with grilled chicken breast"
+  },
+  {
+    "category": "bocadillos",
+    "index": 5,
+    "asset": "tuna-roll",
+    "subject": "Spanish bocadillo crusty baguette roll filled with flaked tuna and tomato"
+  },
+  {
+    "category": "ensaladas",
+    "index": 1,
+    "asset": "chicken-salad",
+    "subject": "Mixed leaf salad with sliced cooked chicken, tomato, cucumber and onion in white shallow bowl"
+  },
+  {
+    "category": "ensaladas",
+    "index": 2,
+    "asset": "tuna-salad",
+    "subject": "Mixed leaf salad with flaked tuna, tomato, cucumber and onion in white shallow bowl"
+  },
+  {
+    "category": "ensaladas",
+    "index": 3,
+    "asset": "prawns-salad",
+    "subject": "Mixed leaf salad with peeled cooked prawns, tomato, cucumber and onion in white shallow bowl"
+  },
+  {
+    "category": "ensaladas",
+    "index": 4,
+    "asset": "avocado-prawns",
+    "subject": "Two avocado halves topped with peeled cooked prawns and a modest amount of pale pink cocktail sauce on white plate"
+  },
+  {
+    "category": "ensaladas",
+    "index": 5,
+    "asset": "melon-ham",
+    "subject": "Fresh melon wedges loosely draped with thin Serrano ham slices on white plate"
+  },
+  {
+    "category": "tortillas",
+    "index": 0,
+    "asset": "spanish-omelette",
+    "subject": "Thick Spanish tortilla de patatas, golden potato and egg omelette, one wedge cut away to show potato layers"
+  },
+  {
+    "category": "tortillas",
+    "index": 1,
+    "asset": "french-omelette",
+    "subject": "Simple folded French egg omelette, pale golden exterior, no visible meat filling"
+  },
+  {
+    "category": "tortillas",
+    "index": 2,
+    "asset": "ham-omelette",
+    "subject": "Folded egg omelette opened slightly to reveal small cooked ham pieces"
+  },
+  {
+    "category": "tortillas",
+    "index": 3,
+    "asset": "bacon-omelette",
+    "subject": "Folded egg omelette opened slightly to reveal crisp browned bacon pieces"
+  },
+  {
+    "category": "tortillas",
+    "index": 4,
+    "asset": "tuna-omelette",
+    "subject": "Folded egg omelette opened slightly to reveal flaked cooked tuna"
+  },
+  {
+    "category": "platos",
+    "index": 0,
+    "asset": "spaghetti-bolognese",
+    "subject": "Spaghetti with rustic ground beef and tomato Bolognese sauce, modest sprinkle of grated cheese"
+  },
+  {
+    "category": "platos",
+    "index": 1,
+    "asset": "lasagne",
+    "subject": "One rectangular portion of baked beef lasagne showing pasta layers and tomato meat sauce, browned bechamel top"
+  },
+  {
+    "category": "platos",
+    "index": 2,
+    "asset": "roast-half-chicken",
+    "subject": "Half roast chicken with golden browned skin, fries and small simple side salad, matching everyday Spanish café plating"
+  },
+  {
+    "category": "platos",
+    "index": 3,
+    "asset": "pork-chops",
+    "subject": "Two grilled pork chops with visible bone, fries and small simple side salad"
+  },
+  {
+    "category": "platos",
+    "index": 4,
+    "asset": "chicken-escalope",
+    "subject": "One golden breaded chicken breast escalope with fries, lemon wedge and small simple side salad"
+  },
+  {
+    "category": "platos",
+    "index": 5,
+    "asset": "beefsteak",
+    "subject": "One seared modestly sized beefsteak with fries and small simple side salad"
+  },
+  {
+    "category": "platos",
+    "index": 7,
+    "asset": "squid-rings",
+    "subject": "Calamares a la romana, lightly battered fried squid rings, lemon wedges on white plate"
+  },
+  {
+    "category": "platos",
+    "index": 8,
+    "asset": "grilled-tuna",
+    "subject": "Thick grilled tuna steak with browned grill marks, simple cooked vegetables and lemon wedge"
+  },
+  {
+    "category": "platos",
+    "index": 9,
+    "asset": "grilled-sardines",
+    "subject": "Five whole grilled sardines with natural silvery browned skins, lemon wedge on white plate"
+  },
+  {
+    "category": "platos",
+    "index": 10,
+    "asset": "chips",
+    "subject": "A modest restaurant serving of golden French fries on white plate"
+  },
+  {
+    "category": "platos",
+    "index": 11,
+    "asset": "canarian-potatoes",
+    "subject": "Traditional papas arrugadas, small whole wrinkled skin-on boiled potatoes with fine salt crust, two small ramekins of red and green mojo sauces"
+  },
+  {
+    "category": "especialidades",
+    "index": 1,
+    "asset": "zarzuela",
+    "subject": "Traditional Spanish zarzuela seafood stew for two in rustic shallow earthenware casserole, prawns, mussels, clams, white fish and squid in rich tomato seafood broth; no rice"
+  },
+  {
+    "category": "bebidas",
+    "index": 2,
+    "asset": "cider-glass",
+    "subject": "A tall clear pint glass of golden cider with tiny bubbles and condensation on pale wooden restaurant table. No beer foam head, no bottle, no invented label"
+  },
+  {
+    "category": "bebidas",
+    "index": 3,
+    "asset": "brandy-glass",
+    "subject": "A small clear tulip snifter containing a modest serving of amber Spanish brandy on pale wooden restaurant table. No bottle, no invented label"
+  }
+]
